@@ -1,0 +1,45 @@
+{
+    "title": "HyperSpeed Walls",
+    "titleResId": "wallpaper_overlapping_Speed_title",
+    "cardType": 1,
+    "count": 9,
+    "slideCount": 9,
+    "randomOrder": false,
+    "wallpapers": [{
+        "thumbPath": "./Speed01.png",
+        "originPath": "./Speed01.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed02.png",
+        "originPath": "./Speed02.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed03.png",
+        "originPath": "./Speed03.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed04.png",
+        "originPath": "./Speed04.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed05.png",
+        "originPath": "./Speed05.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed06.png",
+        "originPath": "./Speed06.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed08.png",
+        "originPath": "./Speed08.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed07.png",
+        "originPath": "./Speed07.png",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./Speed09.png",
+        "originPath": "./Speed09.png",
+        "type": "wallpaper"
+    }]
+}

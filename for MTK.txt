@@ -1,0 +1,24 @@
+vendor/etc/init/hw/init.mt6xxx.rc
+
+change this line from this
+    write /dev/cpuset/background/cpus 0-5
+    write /dev/cpuset/system-background/cpus 0-5
+
+to this
+
+    write /dev/cpuset/background/cpus 0-2
+    write /dev/cpuset/system-background/cpus 0-2
+
+nuke this
+
+# FPSGO FBT Game
+on boot
+    insmod /vendor/lib/modules/fpsgo.ko
+
+and nuke this
+
+vendor/lib/modules/fpsgo.ko
+
+nuke this line from vendor/lib/modules/modules.load
+
+fpsgo.ko

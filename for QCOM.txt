@@ -1,0 +1,10 @@
+vendor/etc/init/hw/init.qcom.rc
+
+change this line from this
+    write /dev/cpuset/background/cpus 0-5
+    write /dev/cpuset/system-background/cpus 0-5
+
+to this
+
+    write /dev/cpuset/background/cpus 0-2
+    write /dev/cpuset/system-background/cpus 0-2
