@@ -50,4 +50,24 @@
     <permission name="android.permission.READ_MEDIA_VIDEO" fixed="false"/>
   </exception>
 
+  <exception
+    package="com.google.android.deskclock"
+    sha256-cert-digest="F0:FD:6C:5B:41:0F:25:CB:25:C3:B5:33:46:C8:97:2F:AE:30:F8:EE:74:11:DF:91:04:80:AD:6B:2D:60:DB:83">
+    <!-- Notifications -->
+    <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+  </exception>
+
+  <exception
+    package="com.google.android.apps.tachyon"
+    sha256-cert-digest="7C:AA:B6:E6:BA:70:0E:0D:DC:F7:5C:CA:52:B8:C3:B1:9A:3C:7D:23:30:8F:7E:B1:77:A6:4E:B2:47:61:97:BD">
+    <!-- Notifications -->
+    <permission name="android.permission.CAMERA" fixed="false"/>
+    <permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+    <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+    <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+    <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+    <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
+    <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
+    <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+  </exception>
 </exceptions>
