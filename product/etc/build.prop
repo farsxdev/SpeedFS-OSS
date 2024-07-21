@@ -58,3 +58,4 @@ ro.ril.power_collapse=1
 ro.config.hw_power_saving=1
 ro.ril.power_collapse=1
 pm.sleep_mode=1
+ro.vendor.fps.switch.default=true
