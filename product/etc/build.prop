@@ -59,3 +59,5 @@ ro.config.hw_power_saving=1
 ro.ril.power_collapse=1
 pm.sleep_mode=1
 ro.vendor.fps.switch.default=true
+ro.surface_flinger.set_idle_timer_ms=30 ro.surface_flinger.set_touch_timer_ms=10 
+ro.surface_flinger.set_display_power_timer_ms=15 
