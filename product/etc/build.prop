@@ -52,7 +52,6 @@ persist.sys.fw.trim_cache_percent=100
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.set_idle_timer_ms=30
 ro.surface_flinger.set_touch_timer_ms=10 
-ro.surface_flinger.set_display_power_timer_ms=15
 debug.hwui.renderer=vulkan 
 ro.ril.power_collapse=1
 ro.config.hw_power_saving=1
