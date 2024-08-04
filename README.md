@@ -1,4 +1,4 @@
-# HyperSpeed [W.I.P]
+# HyperSpeed [Stable 1.1.1]
 
 This is the HyperSpeed Project's source, it can be made in all Xiaomi devices with HyperOS Only.
 
