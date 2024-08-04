@@ -4,6 +4,7 @@ This is the HyperSpeed Project's source, it can be made in all Xiaomi devices wi
 
 Credits:
 
+```
 Kronos mods for launcher
 @itzParsaYC (telegram) for help
 @nokiplays (telegram) for a lot of help
@@ -11,4 +12,7 @@ Kronos mods for launcher
 @ZGonzah (telegram) for help
 @dtyaa_ajh for help modding settings app
 @MMETMAmods for mods
-@miuimodcollection for mods 
+@miuimodcollection for mods
+mvaisakh (GitHub) for optimizations
+bengris32 (GitHub) for optimizations
+```
