@@ -1,24 +1,34 @@
-vendor/etc/init/hw/init.mt6xxx.rc
-
-change this line from this
-    write /dev/cpuset/background/cpus 0-5
-    write /dev/cpuset/system-background/cpus 0-5
-
-to this
-
-    write /dev/cpuset/background/cpus 0-2
-    write /dev/cpuset/system-background/cpus 0-2
-
-nuke this
-
+1. Nuke FPSGO (Increase Gaming Perf)
+- Remove /vendor/lib/modules/fpsgo.ko
+- Remove fpsgo.ko line from /vendor/lib/modules/modules.load
+- Remove:
+```
 # FPSGO FBT Game
 on boot
     insmod /vendor/lib/modules/fpsgo.ko
+```
+in /vendor/etc/init/hw/init.mt6xxx.rc
 
-and nuke this
 
-vendor/lib/modules/fpsgo.ko
+2. Background Apps (Save battery)
+in /vendor/etc/init/hw/init.mt6xxx.rc
 
-nuke this line from vendor/lib/modules/modules.load
+Change
+```
+    write /dev/cpuset/background/cpus 0-5
+    write /dev/cpuset/system-background/cpus 0-5
+```
+to
+```
+    write /dev/cpuset/background/cpus 0-3
+    write /dev/cpuset/system-background/cpus 0-2
+```
 
-fpsgo.ko
+3. Enable stune boost for top-app (Reduce top-app latencies)
+
+Add
+```
+on property:sys.boot_completed=1
+    write /dev/stune/top-app/schedtune.boost 1
+```
+at the end of /vendor/etc/init/hw/init.mt6xxx.rc

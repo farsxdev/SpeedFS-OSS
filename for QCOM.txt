@@ -1,10 +1,22 @@
-vendor/etc/init/hw/init.qcom.rc
+1. Background Apps (Save battery)
+in /vendor/etc/init/hw/init.qcom.rc
 
-change this line from this
+Change
+```
     write /dev/cpuset/background/cpus 0-5
     write /dev/cpuset/system-background/cpus 0-5
-
-to this
-
-    write /dev/cpuset/background/cpus 0-2
+```
+to
+```
+    write /dev/cpuset/background/cpus 0-3
     write /dev/cpuset/system-background/cpus 0-2
+```
+
+2. Enable stune boost for top-app (Reduce top-app latencies)
+
+Add
+```
+on property:sys.boot_completed=1
+    write /dev/stune/top-app/schedtune.boost 1
+```
+at the end of /vendor/etc/init/hw/init.qcom.rc
