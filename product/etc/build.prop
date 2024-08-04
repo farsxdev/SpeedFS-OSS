@@ -48,3 +48,4 @@ debug.hwui.renderer=vulkan
 ro.ril.power_collapse=1
 pm.sleep_mode=1
 ro.vendor.fps.switch.default=true
+ro.thermal.iec.enable=true
