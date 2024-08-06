@@ -32,6 +32,7 @@ ro.logdumpd.enabled=0
 # MIUI
 ro.miui.product.home=com.miui.home
 video.accelerate.hw=1
+ro.config.low_ram.threshold_gb=false
 
 # Rendering
 debug.hwui.renderer=skiagl
