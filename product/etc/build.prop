@@ -61,4 +61,6 @@ persist.sys.cust.lte_config=true
 persist.radio.VT_ENABLE=1
 persist.dbg.wfc_avail_ovr=1
 ro.ril.power_collapse=1
+
+# Thermal
 ro.thermal.iec.enable=true
