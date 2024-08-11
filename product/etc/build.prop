@@ -12,6 +12,23 @@ ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
 
+# Logging
+ro.kernel.android.checkjni=0
+ro.config.checkjni=0
+profiler.hung.dumpdobugreport=false
+debug.mdpcomp.logs=0
+profiler.debugmonitor=false
+logcat.live=disable
+ro.logd.kernel=false
+persist.logd.size.radio=OFF
+persist.logd.size.system=OFF
+logd.logpersistd.enable=false
+logd.statistics=0
+ro.statsd.enable=0
+vidc.debug.level=0
+debug.atrace.tags.enableflags=0
+ro.logdumpd.enabled=0
+
 # MIUI
 ro.miui.product.home=com.miui.home
 video.accelerate.hw=1
@@ -29,6 +46,21 @@ persist.sys.screen_anti_burn_enabled=true
 ro.miui.has_real_blur=1
 ro.miui.ui.blur=1
 hwui.use_gpu=true
+
+# Trim
+persist.sys.fw.bg_apps_limit=65
+persist.sys.fw.bservice_enable=true
+persist.sys.fw.use_trim_settings=true
+persist.sys.fw.trim_cache_percent=100
+
+# IMS
+persist.dbg.ims_volte_enable=1
+ro.vendor.net.enable_dual_wifi=1
+persist.rcs.supported=1
+persist.sys.cust.lte_config=true
+persist.radio.VT_ENABLE=1
+persist.dbg.wfc_avail_ovr=1
+ro.ril.power_collapse=1
 
 # Thermal
 ro.thermal.iec.enable=true
