@@ -13,6 +13,7 @@ Kronos mods for launcher
 @dtyaa_ajh for help modding settings app
 @MMETMAmods for mods
 @miuimodcollection for mods
+@Cazymods for mods
 mvaisakh (GitHub) for optimizations
 bengris32 (GitHub) for optimizations
 ```
