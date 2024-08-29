@@ -11,6 +11,7 @@ Kronos mods for launcher
 @Kakashi1v1 (telegram) for mods
 @ZGonzah (telegram) for help
 @dtyaa_ajh for help modding settings app
+@llionmods for game turbo mod
 @MMETMAmods for mods
 @miuimodcollection for mods
 @Cazymods for mods
