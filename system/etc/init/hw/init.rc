@@ -1,0 +1,3 @@
+# Fake bootloader state
+on init && property:ro.secureboot.devicelock=1
+    setprop ro.secureboot.lockstate locked
