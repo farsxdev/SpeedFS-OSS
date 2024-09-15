@@ -12,23 +12,6 @@ ro.vendor.audio.speaker.surround.boost=110
 debug.sf.hw=1
 ro.surface_flinger.enable_frame_rate_override=false
 
-# Logging
-ro.kernel.android.checkjni=0
-ro.config.checkjni=0
-profiler.hung.dumpdobugreport=false
-debug.mdpcomp.logs=0
-profiler.debugmonitor=false
-logcat.live=disable
-ro.logd.kernel=false
-persist.logd.size.radio=OFF
-persist.logd.size.system=OFF
-logd.logpersistd.enable=false
-logd.statistics=0
-ro.statsd.enable=0
-vidc.debug.level=0
-debug.atrace.tags.enableflags=0
-ro.logdumpd.enabled=0
-
 # MIUI
 ro.miui.product.home=com.miui.home
 ro.control_privapp_permissions=
