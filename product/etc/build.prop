@@ -8,9 +8,91 @@ ro.audio.ignore_effects=true
 ro.vendor.audio.surround.support=true
 ro.vendor.audio.speaker.surround.boost=110
 
-# Surface Flinger
+# Surface Flinger / Touch
 debug.sf.hw=1
 ro.surface_flinger.enable_frame_rate_override=false
+persist.sys.scrollingcache=3 
+touchCount=100 
+device.internal=1 
+touch.filter.level=0
+persist.vendor.qti.inputopts.enable=true pm.dexopt.bg-dexopt=speed-profile pm.dexopt.shared=speed
+persist.device_config.runtime_native.usap_pool_enabled=true 
+persist.af.resampler.quality=255
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+TapDragInterval =0
+KeyRepeatDelay=0
+KeyRepeatTimeout=0
+VirtualKeyQuietTime=0
+acceleration=2527200
+ZoomSpeedRatio=1
+lowThreshold=0
+highThreshold=0
+SwipeTransitionAngleCosine=3.6
+DragMinSwitchSpeed=2527200
+debug.sf.enable_gl_backpression=1
+persist.sys.ui.hw=1
+debug.egl.hw=1
+device.internal=1
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.1
+persist.dev.pm.dyn_samplingrate=1
+persist.pm.on_fire=1
+accuracy.control=100 
+adaptive_touch_sensitivity=1
+MovementSpeedRatio=0.8
+QuietInterval=0.1ms
+SurfaceOrientation=0
+touch.pressure.scale=0.0001
+view.scroll_friction=10
+touch.size.calibration=geometric
+touch.pressure.calibration=geometric
+touch.size.scale=1
+touch.orientationAware=1
+touch.size.bias=0
+touch.size.isSummed=0
+touch.orientation.calibration=geometric
+touch.orientationAware=1
+touch.distance.calibration=geometric
+touch.distance.scale=0
+touch.coverage.calibration=geometric
+touch.gestureMode=spots
+touch.assistant.enabled=0
+touchCount=100
+touch.speed.calibration=geometric
+touch.txt.calibration=geometric
+touch_directinal_aiming=100
+touch_FreeLook=100
+type.touch_speed=true
+MultitouchMinDistance=1px
+MultitouchSettleInterval=0.1ms
+TapInterval=0.1ms
+TapSlop=1px
+ro.min_pointer_dur=4
+ro.max.fling_velocity=18000
+ro.min.fling_velocity=6000
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=10
+ro.securestorage.knox=false
+ro.sys.touchboost.enable=1
+persist.sys.scrollingcache=3
+persist.af.resampler.quality=255
+persist.dev.pm.dyn_samplingrate=1
+PointerGesture=true
+PointerVelocityControlParameters=1
+PowerbuttonTapping=0
+PressureForID=0.01
+debug.sf.frame_rate_multiple_threshold=120
+debug.sf.late.sf.duration=10500000
+debug.adreno.disable_backend_affinity
+debug.mali.disable_backend_affinity=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+view.scroll_friction=0
+ro.min_pointer_dur=8
+touch.deviceType=touchScreen
+video.accelerate.hw=1
+view.scroll_friction=0
+sys.use_fifo_ui=1
 
 # MIUI
 ro.miui.product.home=com.miui.home
@@ -30,6 +112,30 @@ persist.sys.screen_anti_burn_enabled=true
 ro.miui.has_real_blur=1
 ro.miui.ui.blur=1
 hwui.use_gpu=true
+ro.config.disable.hw_accel=false
+debug.performance.tuning=1
+video.accelerate.hw=1
+hw3d.force=1
+hw2d.force=1
+ro.media.dec.jpeg.memcap=8000000
+debug.sf.hw=1
+persist.sys.ui.hw=1
+persist.sys.use_dithering=0
+persist.sys.purgeable_assets=1
+debug.composition.type=gpu
+debug.egl.hw=1
+debug.egl.profiler=1
+debug.enabletr=true
+debug.gr.numframebuffers=3
+debug.composition.type=gpu
+
+# Wi-Fi / Data
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=524288,1048576,2097152,524288,1048576,2097152
+net.tcp.buffersize.umts=4094,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,8760,11680,4096,8760,11680
+net.tcp.buffersize.edge=4096,26280,35040,4096,16384,35040
+
 
 # Trim
 persist.sys.fw.bg_apps_limit=65
