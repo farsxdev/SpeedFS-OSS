@@ -9,7 +9,6 @@ ro.vendor.audio.speaker.surround.boost=110
 
 # Surface Flinger / Touch
 debug.sf.hw=1
-ro.surface_flinger.enable_frame_rate_override=false
 persist.sys.scrollingcache=3 
 touchCount=100 
 device.internal=1 
