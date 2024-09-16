@@ -4,7 +4,6 @@ ro.vendor.fps.switch.default=true
 persist.sys.screen_anti_burn_enabled=true
 
 # Audio
-ro.audio.ignore_effects=true
 ro.vendor.audio.surround.support=true
 ro.vendor.audio.speaker.surround.boost=110
 
@@ -100,7 +99,7 @@ ro.control_privapp_permissions=
 video.accelerate.hw=1
 ro.config.low_ram.threshold_gb=false
 
-# Rendering
+# Rendering / Perf
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.skia_atrace_enabled=true
@@ -128,6 +127,17 @@ debug.egl.profiler=1
 debug.enabletr=true
 debug.gr.numframebuffers=3
 debug.composition.type=gpu
+ro.config.hw_power_saving=true
+ro.ril.power_collapse=1
+pm.sleep_mode=1
+persist.sys.shutdown.mode=hibernate
+ro.config.hw_fast_dormancy=1
+ro.sys.fw.bg_apps_limit=15
+ro.hwui.disable_scissor_opt=true
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+ro.config.nocheckin=1
+persist.sys.purgeable_assets=1
 
 # Wi-Fi / Data
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
@@ -135,7 +145,6 @@ net.tcp.buffersize.wifi=524288,1048576,2097152,524288,1048576,2097152
 net.tcp.buffersize.umts=4094,87380,256960,4096,16384,256960
 net.tcp.buffersize.gprs=4096,8760,11680,4096,8760,11680
 net.tcp.buffersize.edge=4096,26280,35040,4096,16384,35040
-
 
 # Trim
 persist.sys.fw.bg_apps_limit=65
@@ -154,3 +163,4 @@ ro.ril.power_collapse=1
 
 # Thermal
 ro.thermal.iec.enable=true
+ro.config.thermal_throttle=true
