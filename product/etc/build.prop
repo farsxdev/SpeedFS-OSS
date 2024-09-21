@@ -154,6 +154,7 @@ hwui.disable_vsync=true
 ro.cpufreq.governor=performance
 ro.cpu.governor=performance
 wifi.supplicant_scan_interval=180
+debug.sf.no_hw_vsync=1
 
 # Wi-Fi / Data
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
