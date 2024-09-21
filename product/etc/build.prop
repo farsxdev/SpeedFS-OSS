@@ -142,6 +142,7 @@ persist.sys.smartpower.display.enable=true
 # Change according to your phone's max refresh rate.
 persist.sys.smartpower.limit.max.refresh.rate=120
 persist.sys.multithreaded.dexloader.enable=true
+ro.config.hw_quickpoweron=true
 
 # Wi-Fi / Data
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
