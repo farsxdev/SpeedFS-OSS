@@ -8,7 +8,6 @@ ro.vendor.audio.surround.support=true
 ro.vendor.audio.speaker.surround.boost=110
 
 # Surface Flinger / Touch
-debug.sf.hw=1
 persist.sys.scrollingcache=3 
 touchCount=100 
 device.internal=1 
@@ -143,6 +142,17 @@ persist.sys.smartpower.display.enable=true
 persist.sys.smartpower.limit.max.refresh.rate=120
 persist.sys.multithreaded.dexloader.enable=true
 ro.config.hw_quickpoweron=true
+debug.egl.force_gpu=1
+persist.sys.ui.hw=true
+dalvik.vm.dexopt-flags=m=y
+ro.sys.fw.dex2oat_thread_count=4
+ro.sys.fw.use_split_dex=true
+ro.mot.eri.losalert.delay=1000
+debug.composition.type=cpu
+persist.sys.NV_POWERMODE=1
+hwui.disable_vsync=true
+ro.cpufreq.governor=performance
+ro.cpu.governor=performance
 
 # Wi-Fi / Data
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
@@ -169,6 +179,7 @@ persist.sys.cust.lte_config=true
 persist.radio.VT_ENABLE=1
 persist.dbg.wfc_avail_ovr=1
 ro.ril.power_collapse=1
+ro.telephony.call_ring.delay=0
 
 # Thermal
 ro.thermal.iec.enable=true
