@@ -149,6 +149,10 @@ net.tcp.buffersize.wifi=524288,1048576,2097152,524288,1048576,2097152
 net.tcp.buffersize.umts=4094,87380,256960,4096,16384,256960
 net.tcp.buffersize.gprs=4096,8760,11680,4096,8760,11680
 net.tcp.buffersize.edge=4096,26280,35040,4096,16384,35040
+net.ppp0.dns1=8.8.8.8
+net.ppp0.dns2=8.8.4.4
+net.dns1=8.8.8.8
+net.dns2=8.8.4.4
 
 # Trim
 persist.sys.fw.bg_apps_limit=65
