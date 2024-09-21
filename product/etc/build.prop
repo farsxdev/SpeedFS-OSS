@@ -137,6 +137,11 @@ persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 ro.config.nocheckin=1
 persist.sys.purgeable_assets=1
+ro.surface_flinger.game_default_frame_rate_override=60
+persist.sys.smartpower.display.enable=true
+# Change according to your phone's max refresh rate.
+persist.sys.smartpower.limit.max.refresh.rate=120
+persist.sys.multithreaded.dexloader.enable=true
 
 # Wi-Fi / Data
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
