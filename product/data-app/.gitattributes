@@ -1,3 +1,0 @@
-SpeedBrave.apk filter=lfs diff=lfs merge=lfs -text
-Official/Settings.apk filter=lfs diff=lfs merge=lfs -text
-Unofficial/Settings.apk filter=lfs diff=lfs merge=lfs -text
